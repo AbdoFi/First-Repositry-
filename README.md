@@ -29,9 +29,11 @@ If you've read all this and you STILL want to try it out, here's what you have t
         t = pv.View()
         t.view(df, (40,40), (t.colors["Black"],t.colors["White"],t.colors["Gray"]),("CrimsonText-Regular.ttf","CrimsonText-Bold.ttf",20))
     
-    The View() class currently has only the view() method. The syntax is as follows:
+    
+The View() class currently has only the view() method. The syntax is as follows:
          
          t = panview.View()
          t.view(DataFrame, (lengthOfCell, widthOfCell), (t.colors["Font Color"], t.color["Cell_bg_color1"],t.colors["Cell_bg_color2"]))
          
-    If you would like to give any feedback not outlined above, please feel free to do so!
+    
+If you would like to give any feedback not outlined above, please feel free to do so!
